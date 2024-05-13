@@ -1,7 +1,6 @@
 ---
 layout: category
-title: Blog
+title: Portfolio
 slug: blog
-description: A category for general blog posts.
+description: A category for portfolio projects
 ---
-
