@@ -22,10 +22,12 @@ footer {
   }
 
   p {
+
     text-decoration: none;
     color: $primaryDark;
     font-size: rem(16px);
     line-height: rem(25px);
+    text-align: center;
   }
 
   span {

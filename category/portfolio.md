@@ -1,6 +1,6 @@
 ---
 layout: category
 title: Portfolio
-slug: blog
+slug: portfolio
 description: A category for portfolio projects
 ---
