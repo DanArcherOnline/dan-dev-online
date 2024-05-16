@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Code
+title: Software Development
 slug: code
-description: A category for code related posts.
+description: A category for software development related posts.
 ---
