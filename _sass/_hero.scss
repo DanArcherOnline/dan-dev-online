@@ -30,15 +30,24 @@
 
   .content {
     display: flex;
-    justify-content: center;
+    justify-content: end;
     flex-direction: column;
     position: absolute;
     width: 80%;
     height: 100%;
-    padding-left: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10%;
 
     @include media(">=sm") {
-      width: 50%;
+      width: 100%;
+    }
+
+    @include media("<=sm") {
+      padding-left: 0;
+      padding-right: 0;
+      padding-bottom: 20%;
+      width: 100%;
     }
 
     .date {
@@ -47,13 +56,22 @@
     }
 
     .title {
-      font-size: rem(40px);
+      font-size: rem(60px);
       color: #fff;
       text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
       margin: rem(10px) 0;
+      text-align: center;
 
-      @include media(">=sm") {
-        font-size: rem(50px);
+      span {
+        font-size: rem(80px);
+
+        @include media("<=sm") {
+          font-size: rem(40px);;
+        }
+      }
+
+      @include media("<=sm") {
+        font-size: rem(30px);;
       }
     }
 
@@ -62,14 +80,16 @@
       color: #fff;
       text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
       margin: 0;
+      text-align: center;
 
-      @include media(">=sm") {
-        font-size: rem(26px);
+      @include media("<=sm") {
+        font-size: rem(16px);
       }
     }
 
     .buttons {
-      margin-top: rem(50px);
+      margin-top: rem(20px);
+      text-align: center;
     }
 
     .button {
