@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Software Development
-slug: software-development
+title: Dev
+slug: dev
 description: A category for software development related posts.
 ---

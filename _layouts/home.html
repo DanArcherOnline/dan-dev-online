@@ -45,11 +45,11 @@ layout: main
         {% for post in posts offset: offset %}
             {% unless post.category == "portfolio" %}
                 <article class="box-item">
-                    <span class="category">
+                    <!-- <span class="category">
                         <a href="{{ site.baseurl }}/{{ site.categories_folder | default: 'category' }}/{{ post.category }}">
                             <span>{{ post.category }}</span>
                         </a>
-                    </span>
+                    </span> -->
                     <div class="box-body">
                         <a class="cover" href="{{ post.url | prepend: site.baseurl }}">
                             {% include loader.html %}
