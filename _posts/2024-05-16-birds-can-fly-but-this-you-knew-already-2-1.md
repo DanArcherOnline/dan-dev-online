@@ -6,7 +6,7 @@ subtitle: A CTF walkthrough blog, and cyber security badge/certificate showcase
 description: A responsive and adaptive CTF showcase built with Next.js and
   Tailwind, that uses Sanity for a backend CMS.
 image: /assets/img/uploads/danarcherhacking1.png
-optimized_image: ""
+optimized_image: /assets/img/uploads/danarcherhacking5.gif
 category: portfolio
 tags:
   - sanity
