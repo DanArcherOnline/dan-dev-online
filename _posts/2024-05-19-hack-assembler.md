@@ -1,5 +1,5 @@
 ---
-date: 2024-05-20 03:41:00
+date: 2024-05-19 03:41:00
 layout: post
 title: HACK Assembler
 subtitle: HACK Assembly to Machine Language Translator
