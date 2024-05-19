@@ -19,6 +19,8 @@ paginate: false
 
 ## P﻿roject Details
 
+F﻿ind the code on [GitHub](https://github.com/DanArcherOnline/hack_assembly_assembler).
+
 S﻿upply a file named sum.asm with the contents below to the application.
 
 ```hack
