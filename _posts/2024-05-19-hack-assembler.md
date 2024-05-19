@@ -2,7 +2,7 @@
 date: 2024-05-20 03:41:00
 layout: post
 title: HACK Assembler
-subtitle: HACK assembly to machine translator
+subtitle: HACK Assembly to Machine Language Translator
 description: A CLI application written in Dart that translates the HACK assembly
   language into binary machine code.
 image: /assets/img/uploads/hack-assembler.png
