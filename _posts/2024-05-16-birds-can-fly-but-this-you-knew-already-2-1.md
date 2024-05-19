@@ -14,13 +14,9 @@ tags:
   - react
   - next.js
   - cyber-security
-author: Dan Archer
+author: Dan
 paginate: false
 ---
-# Dan Archer Hacking
-
-A CTF walkthrough blog, and cyber security badge/certificate showcase.
-
 ## Tech Used
 
 * HTML5 
@@ -31,6 +27,10 @@ A CTF walkthrough blog, and cyber security badge/certificate showcase.
 * S﻿anity
 
 ## T﻿he Project
+
+V﻿isit the website at <https://danarcherhacking.vercel.app>
+
+F﻿ind the code on [GitHub](https://github.com/DanArcherOnline/hacker-blog).
 
 I designed the entire website in Figma from scratch.
 
