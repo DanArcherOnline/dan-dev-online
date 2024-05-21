@@ -8,6 +8,10 @@ description: A simple application that generates a quote using a third party
   project.
 image: /assets/img/uploads/at3.jpeg
 category: portfolio
+tags:
+  - Flutter
+  - Dart
+  - Clean-Architecture
 author: Dan
 paginate: false
 ---
