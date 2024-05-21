@@ -1,5 +1,5 @@
 ---
-date: 2024-05-21 19:20:39
+date: 2024-05-20 19:20:39
 layout: post
 title: Adventure Time Quote Generator
 subtitle: A simple clean architecture mobile application built with flutter
