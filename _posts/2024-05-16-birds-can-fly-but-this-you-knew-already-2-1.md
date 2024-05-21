@@ -26,7 +26,7 @@ paginate: false
 * Tailwind
 * S﻿anity
 
-## T﻿he Project
+## Project Details
 
 V﻿isit the website at <https://danarcherhacking.vercel.app>
 
