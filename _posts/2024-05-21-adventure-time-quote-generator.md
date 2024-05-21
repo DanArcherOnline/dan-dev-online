@@ -9,9 +9,9 @@ description: A simple application that generates a quote using a third party
 image: /assets/img/uploads/at3.jpeg
 category: portfolio
 tags:
-  - Flutter
-  - Dart
-  - Clean-Architecture
+  - flutter
+  - dart
+  - clean-architecture
 author: Dan
 paginate: false
 ---
