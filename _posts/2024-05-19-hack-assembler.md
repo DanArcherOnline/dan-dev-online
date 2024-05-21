@@ -8,8 +8,8 @@ description: A CLI application written in Dart that translates the HACK assembly
 image: /assets/img/uploads/hack-assembler.png
 category: portfolio
 tags:
-  - Dart
-  - CLI
+  - dart
+  - cli
 author: Dan
 paginate: false
 ---
