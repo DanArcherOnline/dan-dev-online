@@ -1,5 +1,5 @@
 ---
-date: 2024-06-11 12:06:08
+date: 2024-06-01 12:06:08
 layout: post
 title: Trickadex
 subtitle: A martial arts tricking tool
