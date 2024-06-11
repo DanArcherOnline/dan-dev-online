@@ -1,5 +1,5 @@
 ---
-date: 2024-06-11 11:38:13
+date: 2024-06-02 11:38:13
 layout: post
 title: Demystifying Runes
 subtitle: The Magical Art of Character Management in Go
