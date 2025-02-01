@@ -11,6 +11,8 @@ tags:
 author: Dan
 paginate: false
 ---
+[t﻿est](http://www.test.com)
+
 Ever been coding along, nice and relaxed, when suddenly your program throws a wobbly and crashes? Maybe a file wouldn't open, or something went funky with an external resource. Well, fear not! Go has a built-in feature called `recover()` that can help you **recover** from those panics.
 
 Now, before you go all superhero on panics, it's important to remember that Go generally prefers handling errors with returned error values. `recover()` is more like having a fireman's net to catch you if you do take a tumble.
@@ -76,15 +78,15 @@ func main() {
 
 In this example:
 
-- We created a `DataAccessError` to keep data-related errors organized.
-- The `OpenFileWithRecover` function uses `defer` and `recover()` to catch panics during file opening.
-- The `defer` function ensures the file gets closed even if there's a panic.
-- `recover()` logs the panic message for debugging but lets the program flow normally.
-- In `main`, we handle the returned error. If it's a `DataAccessError`, we know it's a data issue. Otherwise, it's something else entirely.
+* We created a `DataAccessError` to keep data-related errors organized.
+* The `OpenFileWithRecover` function uses `defer` and `recover()` to catch panics during file opening.
+* The `defer` function ensures the file gets closed even if there's a panic.
+* `recover()` logs the panic message for debugging but lets the program flow normally.
+* In `main`, we handle the returned error. If it's a `DataAccessError`, we know it's a data issue. Otherwise, it's something else entirely.
 
 **Remember:**
 
-- `recover()` is a safety net, not your first line of defense. Proper error handling with returned values is still your best friend.
-- Use `recover()` judiciously and only in specific situations where catching a panic makes sense.
+* `recover()` is a safety net, not your first line of defense. Proper error handling with returned values is still your best friend.
+* Use `recover()` judiciously and only in specific situations where catching a panic makes sense.
 
 So, the next time your program throws a wobbly, you'll be equipped with `recover()` to catch it and keep things running smoothly.
